@@ -1,7 +1,6 @@
 # Learning Efficient Representations for Keyword Spotting with Triplet Loss
 
 Code for the paper [Learning Efficient Representations for Keyword Spotting with Triplet Loss](https://arxiv.org/abs/2101.04792) \
-by Roman Vygon(rvygon@ntr.ai) and Nikolay Mikhaylovskiy(nickm@ntr.ai).
 
 ### Prerequisites
 
@@ -40,9 +39,6 @@ To test a classifier-head model run:
 python infer_notl.py --name=test_encoder --cl_name=test_classifier --manifest=MANIFEST --model=MODEL --enc_step=ENCODER_TRAINING_STEP --cl_step=CLASSIFIER_TRAINING_STEP
 ```
 You can use ```--help``` to view the description of arguments.
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Datasets
 
